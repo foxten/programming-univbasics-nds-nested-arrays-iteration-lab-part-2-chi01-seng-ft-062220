@@ -7,10 +7,10 @@ count = 0
         min_temp = 100
           if min_temp > src[count][inner_count]
             min_temp = src[count][inner_count]
+            lowest_temperatures << min_temp
           end
           inner_count +=1
       end
-     p lowest_temperatures << min_temp
     count +=1
   end
 end
