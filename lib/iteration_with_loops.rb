@@ -6,11 +6,12 @@ count = 0
   while count < src.count do
     inner_count = 0 
       while inner_count < src[count].count do
-        min_temp = 0
+        min_temp = src[count].sort[-1]
           if src[count][inner_count] < min_temp
             min_temp = src[count][inner_count]
           inner_count +=1
       end
     count +=1
   end
+  lowest_temperatures << min_temp
 end
