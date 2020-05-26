@@ -13,6 +13,7 @@ count = 0
           end
           inner_count +=1
       end
+      p lowest_temperatures
     count +=1
   end
 end
