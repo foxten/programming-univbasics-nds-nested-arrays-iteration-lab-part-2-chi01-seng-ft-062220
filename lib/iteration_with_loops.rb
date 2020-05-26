@@ -5,7 +5,7 @@ count = 0
     inner_count = 0 
     min_temp = src[count][inner_count]
       while inner_count < src[count].count do
-          if min_temp > src[count][inner_count]
+          if min_temp > src[count][inner_count+1]
             min_temp = src[count][inner_count]
           end
           inner_count +=1
