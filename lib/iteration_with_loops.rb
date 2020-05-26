@@ -1,6 +1,4 @@
 def find_min_in_nested_arrays(src)
-  # src will be an array of arrays of integers
-  # Produce a new Array that contains the smallest number of each of the nested arrays
 lowest_temperatures = []
 count = 0
   while count < src.count do
@@ -13,7 +11,6 @@ count = 0
           end
           inner_count +=1
       end
-      p lowest_temperatures
     count +=1
   end
 end
