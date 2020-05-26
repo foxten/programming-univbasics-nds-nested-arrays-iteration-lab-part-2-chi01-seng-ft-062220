@@ -10,7 +10,6 @@ count = 0
           end
           inner_count +=1
       end
-      lowest_temperatures << min_temp
     count +=1
   end
 end
