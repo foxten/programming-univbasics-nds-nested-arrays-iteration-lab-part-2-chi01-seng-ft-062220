@@ -9,8 +9,10 @@ count = 0
         min_temp = src[count].sort[-1]
           if src[count][inner_count] < min_temp
             min_temp = src[count][inner_count]
+          end
           inner_count +=1
       end
+      lowest_temperatures << min_temp
     count +=1
   end
 end
